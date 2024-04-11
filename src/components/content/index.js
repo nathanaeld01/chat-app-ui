@@ -1,3 +1,3 @@
 export const Content = () => {
-	return <></>;
+	return <div></div>;
 };

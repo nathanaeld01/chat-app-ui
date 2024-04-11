@@ -1,6 +1,6 @@
 import { cn } from "../../lib/utils";
 
-const TickIcon = ({ className, props }) => {
+const TickIcon = ({ className, ...props }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -23,4 +23,42 @@ const TickIcon = ({ className, props }) => {
 	);
 };
 
-export { TickIcon };
+const PaperclipIcon = ({ className, ...props }) => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			className={cn("fill-none", className)}
+			viewBox="0 0 19 20"
+			{...props}
+		>
+			<path
+				stroke="#949494"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="m17.867 9.208-7.659 7.659a5.003 5.003 0 1 1-7.075-7.075l7.142-7.142A3.338 3.338 0 0 1 15 7.367l-7.158 7.141a1.668 1.668 0 0 1-2.359-2.358l7.075-7.067"
+			/>
+		</svg>
+	);
+};
+
+const ChevronRightIcon = ({ className, ...props }) => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			className={cn("fill-none", className)}
+			viewBox="0 0 12 18"
+			{...props}
+		>
+			<path
+				stroke="#fff"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="3"
+				d="M2.25 16.5 9.75 9l-7.5-7.5"
+			/>
+		</svg>
+	);
+};
+
+export { ChevronRightIcon, PaperclipIcon, TickIcon };
