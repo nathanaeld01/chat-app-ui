@@ -13,10 +13,15 @@ module.exports = {
 				blue: "#4C82EF",
 				gray: "#B1B1B1",
 				"dark-gray": "#7A7F8C",
+				charcoal: "#333333",
+				"light-green": "#DCF7C5",
+				"light-blue": "#F2F7FF",
 			},
 			spacing: {
 				12.5: "3.125rem",
 				4.5: "1.125rem",
+				7.5: "1.875rem",
+				62.5: "15.625rem",
 			},
 			backgroundImage: {
 				footer: "linear-gradient(to bottom right, #e6eeffff, #e6eeff00 110%)",

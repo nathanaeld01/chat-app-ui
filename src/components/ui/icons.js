@@ -46,12 +46,11 @@ const ChevronRightIcon = ({ className, ...props }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			className={cn("fill-none", className)}
+			className={cn("fill-none stroke-white", className)}
 			viewBox="0 0 12 18"
 			{...props}
 		>
 			<path
-				stroke="#fff"
 				stroke-linecap="round"
 				stroke-linejoin="round"
 				stroke-width="3"
@@ -61,4 +60,40 @@ const ChevronRightIcon = ({ className, ...props }) => {
 	);
 };
 
-export { ChevronRightIcon, PaperclipIcon, TickIcon };
+const ConfigurationIcon = ({ className, ...props }) => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			className={cn("fill-none stroke-[#666666]", className)}
+			viewBox="0 0 21 20"
+			{...props}
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="M18 3.333h-5.833m-3.334 0H3M18 10h-7.5m-3.333 0H3m15 6.667h-4.167m-3.333 0H3m9.167-15V5m-5 3.333v3.334M13.833 15v3.333"
+			/>
+		</svg>
+	);
+};
+
+const XIcon = ({ className, ...props }) => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			className={cn("fill-none stroke-[#737373]", className)}
+			viewBox="0 0 11 12"
+			{...props}
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="1.5"
+				d="m1.353 9.913 7.756-7.756m-7.756 0 7.756 7.756"
+			/>
+		</svg>
+	);
+};
+
+export { ChevronRightIcon, ConfigurationIcon, PaperclipIcon, TickIcon, XIcon };

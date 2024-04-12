@@ -3,7 +3,7 @@ import { FooterInput } from "./input";
 
 export const Footer = () => {
 	return (
-		<div className="flex h-20 w-full flex-col gap-2.5 bg-footer px-2.5 py-[5px]">
+		<div className="flex h-20 w-full flex-col gap-2.5 border-t-2 border-t-white bg-footer px-2.5 py-[5px]">
 			<div className="flex gap-[5px]">
 				<FooterInput />
 				<FooterButton />

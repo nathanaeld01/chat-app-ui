@@ -3,4 +3,5 @@ module.exports = {
 	useTabs: true,
 	plugins: ["prettier-plugin-tailwindcss"],
 	tailwindConfig: "./tailwind.config.js",
+	tailwindFunctions: ["cn"],
 };
