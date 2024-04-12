@@ -1,6 +1,6 @@
 # Project Screenshot
 
-![Image Alt text](/images/screenshot.png "Project Screenshot"))
+![Image Alt text](/images/screenshot.png "Project Screenshot")
 
 # Getting Started with Create React App
 
