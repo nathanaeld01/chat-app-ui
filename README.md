@@ -1,3 +1,7 @@
+# Project Screenshot
+
+![Image Alt text](/images/screenshot.png "Project Screenshot"))
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
